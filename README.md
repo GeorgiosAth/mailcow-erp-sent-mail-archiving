@@ -42,6 +42,16 @@ The implementation combines three Mailcow capabilities:
 
 The original messages continue to their intended recipients, independently of the selective archive workflow.
 
+
+### Warehouse Email Archiving Flow
+
+The following diagram illustrates the ERP warehouse email archiving workflow, including SMTP delivery, Sender BCC mapping, plus addressing, and selective Sieve filtering.
+
+![ERP Warehouse Email Archiving Flow](diagrams/mail-flow.png)
+
+*Sanitized architecture diagram using illustrative email addresses, message headers, and subject patterns.*
+  
+
 ### Email Processing Flow
 
 ```text
